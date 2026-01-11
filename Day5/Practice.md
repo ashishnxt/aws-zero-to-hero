@@ -11,6 +11,8 @@ This chapter covers the fundamentals of **AWS Virtual Private Cloud (VPC)**, sub
 
 ## 1. VPC (Virtual Private Cloud)
 
+<img width="3180" height="1999" alt="Screenshot 2026-01-11 150544" src="https://github.com/user-attachments/assets/f9ea4a65-d0c0-47d4-b76f-a007bf3cd84d" />
+
 A **VPC** is a logically isolated virtual network in AWS where you can launch AWS resources.
 
 ### VPC Creation
@@ -26,6 +28,8 @@ A **VPC** is a logically isolated virtual network in AWS where you can launch AW
 ---
 
 ## 2. Subnet Design (Public & Private)
+
+<img width="3199" height="1999" alt="Screenshot 2026-01-11 151642" src="https://github.com/user-attachments/assets/29609890-5b73-4918-96a2-0713982ef9ee" />
 
 Subnets are created **inside a VPC** and use a portion of the VPC CIDR block.
 
@@ -147,6 +151,8 @@ Allow **private subnet instances** to access the internet **without being public
 
 ## 8. Connecting Two Different VPCs (VPC Peering)
 
+<img width="2595" height="1393" alt="Screenshot 2026-01-11 154237" src="https://github.com/user-attachments/assets/99a9ed40-c757-41a2-9abf-35332445db48" />
+
 ### Steps
 
 1. Create a **VPC Peering Connection** between two VPCs
@@ -173,6 +179,9 @@ Result:
 
 ### Billing Overview
 
+<img width="3188" height="1991" alt="Screenshot 2026-01-11 154628" src="https://github.com/user-attachments/assets/7b8c925b-7b00-4c89-a4df-998de62f84a3" />
+
+
 AWS Billing helps monitor service usage and costs.
 
 ### Task: Billing Alert Setup
@@ -193,16 +202,3 @@ AWS Billing helps monitor service usage and costs.
 * Email notification is sent when billing threshold exceeds `$5`
 
 ---
-
-## Summary
-
-* VPC defines the total IP space
-* Subnets divide the VPC CIDR
-* Internet Gateway enables public access
-* NAT Gateway provides secure outbound internet for private subnets
-* VPC Peering connects multiple VPCs
-* CloudWatch + SNS helps control AWS billing
-
----
-
-✅ This setup follows AWS best practices and is commonly used in real-world production environments.
