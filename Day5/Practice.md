@@ -80,6 +80,8 @@ AWS reserves **5 IP addresses in every subnet**:
 
 ## 5. EC2 Instance Deployment
 
+<img width="3194" height="1999" alt="Screenshot 2026-01-11 160245" src="https://github.com/user-attachments/assets/1561414b-77af-484c-8315-8dd9530de8d4" />
+
 ### EC2 in Public Subnet
 
 * Launch an EC2 instance inside the **aws-public** subnet.
@@ -179,12 +181,13 @@ Result:
 
 ### Billing Overview
 
-<img width="3188" height="1991" alt="Screenshot 2026-01-11 154628" src="https://github.com/user-attachments/assets/7b8c925b-7b00-4c89-a4df-998de62f84a3" />
-
+<img width="3194" height="1999" alt="Screenshot 2026-01-11 160245" src="https://github.com/user-attachments/assets/d0464395-769d-4db6-8d3f-2bc7a13d7d12" />
 
 AWS Billing helps monitor service usage and costs.
 
 ### Task: Billing Alert Setup
+
+<img width="3188" height="1991" alt="Screenshot 2026-01-11 154628" src="https://github.com/user-attachments/assets/13bb8afa-4404-4109-bde9-eb227147163c" />
 
 **Requirement:**
 
