@@ -1,8 +1,11 @@
-# Chapter 3: AWS Billing, Monitoring, and VPC
+<img width="2783" height="1356" alt="Screenshot 2026-01-11 164010" src="https://github.com/user-attachments/assets/deae1241-7ced-42a6-bc7a-758610fcab6f" /># Chapter 3: AWS Billing, Monitoring, and VPC
 
 ## Topic Overview
 
 This chapter covers the fundamentals of **AWS Virtual Private Cloud (VPC)**, subnet design, internet connectivity using **Internet Gateway and NAT Gateway**, VPC peering, and a basic introduction to **AWS Billing and CloudWatch monitoring**.
+
+<img width="2783" height="1356" alt="Screenshot 2026-01-11 164010" src="https://github.com/user-attachments/assets/a6c436f5-254f-4d5f-9887-82dc657ad742" />
+
 
 ---
 
