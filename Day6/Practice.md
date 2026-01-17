@@ -1,4 +1,4 @@
-# ECR + ECS Project (Node.js Todo App)
+# Deploying a Node.js Todo Application Using Amazon ECR & ECS (Fargate)
 
 ## Project Overview
 
