@@ -9,12 +9,12 @@ This project demonstrates how to **containerize a Node.js Todo application**, pu
 ## 1. Setup Amazon ECR (Elastic Container Registry)
 
 1. Create an ECR repository
-   **Repository name:** `notes-todo-cicd`
+   **Repository name:** `node-todo-app`
 
 2. Build and tag the Docker image:
 
    ```bash
-   https://github.com/LondheShubham153/node-todo-cicd.git
+   node-todo-app:latest
    ```
 
 3. Push the Docker image to the ECR repository.
